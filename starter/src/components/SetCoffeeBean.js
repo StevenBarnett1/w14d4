@@ -8,6 +8,7 @@ const SetCoffeeBean = ({ coffeeBeans }) => {
       <select
         name="coffee-bean"
         onChange = {(e) => setCoffeeBeanId(e.target.value)}
+        onChange = {(e) => setCoffeeBean(e.target.value)}
       >
         {coffeeBeans.map(bean => (
           <option
