@@ -3,8 +3,8 @@ import {useContext} from 'react';
 
 
 const SelectedCoffeeBean = () => {
-
   let {coffeeBean} = useCoffeeContext();
+  console.log(coffeeBean)
   // console.log(coffeeBean);
   return (
     <div className='selected-coffee'>
